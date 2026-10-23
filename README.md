@@ -1,3 +1,3 @@
-# BRASA Burger Club
+# La Bendición de Dios
 
-Frontend Angular para una hamburguesería moderna.
+Sitio web de hamburguesas ubicado en Hecelchakán, Campeche. Frontend Angular; carrito demostrativo.
