@@ -46,3 +46,44 @@ footer p,footer small{color:#aaaeb7}
 .checkout{background:#1fa968;color:white}
 @media(max-width:650px){.mobile-checkout{box-shadow:0 -8px 35px #0009}.mobile-checkout button{background:#ff6747;color:#171216}.mobile-checkout b{color:#171216}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Customer-selectable theme: the selected preference is saved locally */
+.app-shell{min-height:100vh;background:#101217;color:#f6f2ea;transition:background .2s,color .2s}
+.theme-toggle{border:1px solid #555d69;border-radius:30px;background:#282e39;color:#fff;padding:12px 16px;font-weight:800;white-space:nowrap}
+.theme-toggle:hover,.theme-toggle:focus-visible{border-color:#ffc66b;outline-offset:3px}
+.app-shell.light-theme{color-scheme:light;background:#fff8ec;color:#241910;--red:#c8361d;--ink:#241910;--cream:#fff8ec}
+.light-theme .topbar{background:#241910;color:#ffda92}
+.light-theme .site-header{background:rgba(255,248,236,.97);border-color:#ead8c4}
+.light-theme .site-header nav a.selected,.light-theme .site-header nav a:hover{background:#f6e3c9;color:#a42b18}
+.light-theme .theme-toggle{background:#fff;border-color:#d6bea5;color:#241910}
+.light-theme .brand-icon,.light-theme .hero-trust span,.light-theme .features span,.light-theme .menu-stats span{background:#fff1da;color:#241910}
+.light-theme .cart,.light-theme .add-button,.light-theme .mobile-checkout button{background:#241910;color:white}
+.light-theme .cart b{background:#ffc04e;color:#241910}
+.light-theme .new-hero{background:#f7e8d0}
+.light-theme .new-hero .herotext p,.light-theme .home-feature p,.light-theme .menu-intro p,.light-theme .about-layout p,.light-theme .contact p{color:#68574b}
+.light-theme .eyebrow,.light-theme .label,.light-theme .food-title strong,.light-theme .cart-total strong,.light-theme em{color:#c8361d}
+.light-theme .cta,.light-theme .price button,.light-theme .filters button.active,.light-theme .filters button:hover{background:#c8361d;color:white}
+.light-theme .outline-btn{border-color:#241910;color:#241910}
+.light-theme .home-feature,.light-theme .premium-menu,.light-theme .about-premium,.light-theme .location-premium,.light-theme .contact-premium,.light-theme .menu{background:#fff8ec}
+.light-theme .food-card,.light-theme .grid article,.light-theme .location-panel{background:#fff!important;border-color:#f2e2d2}
+.light-theme .food-card .card p,.light-theme .image-note,.light-theme .cart-product-info small{color:#806d5e}
+.light-theme .food-tag{background:#fff9f0;color:#ae351f}
+.light-theme .filters{background:rgba(255,249,239,.95)}
+.light-theme .filters button{background:#fff;border-color:#ebd3b9;color:#241910}
+.light-theme .filters button.active,.light-theme .filters button:hover{background:#c8361d;color:#fff}
+.light-theme .promo-premium{background:#c8361d}
+.light-theme .contact{background:#fff8ec}
+.light-theme .business-hours,.light-theme .cart-head,.light-theme .cart-summary{background:#fff2db;color:#241910}
+.light-theme footer{background:#241910;color:white}
+.light-theme footer p,.light-theme footer small{color:#d4c1b2}
+.light-theme .cart-drawer{background:#fff;color:#241910}
+.light-theme .cart-head{border-color:#efdec7}
+.light-theme .close-cart,.light-theme .qty button{background:#f7e9d8;color:#241910}
+.light-theme .cart-product{border-color:#f1e6db}
+.light-theme .order-form input,.light-theme .order-form select,.light-theme .order-form textarea,.light-theme aside input,.light-theme aside select,.light-theme aside textarea{background:#fffaf4;color:#241910;border-color:#e5d6c4}
+.light-theme .order-form input::placeholder,.light-theme .order-form textarea::placeholder{color:#806d5e}
+.light-theme .cart-bottom,.light-theme .mobile-checkout{background:white}
+.light-theme .cart-bottom p,.light-theme .empty-cart p{color:#82776c}
+.light-theme .cart-summary .cart-total{border-color:#d8c3ab}
+.light-theme .checkout{background:#128c4a;color:white}
+@media(max-width:650px){.site-header .theme-toggle{padding:9px 11px;font-size:12px}.light-theme .mobile-checkout button{background:#241910;color:#fff}.light-theme .mobile-checkout b{color:#ffc04e}}
